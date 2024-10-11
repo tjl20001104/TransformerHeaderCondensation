@@ -6,6 +6,7 @@
     ├── data_generator 
     ├── model
     ├── utils
+    ├── result
     ├── main.py
     ├── data.py
     ├── train.py
@@ -21,5 +22,3 @@
 - model: 模型定义代码
 - utils: 作图、设置随机数等工具代码
 - result: 保存结果的文件夹
-- explore: 用于探索的jupyter notebook
-- paper_plot_code: 用于复现论文中的图的jupyter notebook
