@@ -24,6 +24,9 @@
 - result: 保存结果的文件夹
 
 We found that during the early stage of training for Transformer models, Condensation phenomena exhibit the following characteristics:
+
     The maximum number of condensation directions for Q(K, V) parameter matrices belonging to the same multi-head self-attention module is two to the power of their respective embedding space dimension;
+    
     Attention matrices for all self-attention heads in all layers are identical and serve to take average inline;
+    
     Overall output matrices for self-attention heads belonging to the same multi-head selfattention module follow a similar pattern as those from their V modules in terms of condensation.
